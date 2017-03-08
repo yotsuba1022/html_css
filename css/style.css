@@ -8,6 +8,9 @@ selector {
 h1{
 	color: #00bcd4;
 	font-size: 50px;
+	/*border: 2px solid #00bcd4;*/
+	/*border: 2px dashed #00bcd4;*/
+	border: 2px dotted #00bcd4;
 }
 
 p{
@@ -17,6 +20,10 @@ p{
 	text-align: left;
 	text-indent: 36px;
 	/*text-decoration: underline;*/
+}
+
+img{
+	border-bottom: 1px solid #000;
 }
 
 .style1{
