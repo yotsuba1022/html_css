@@ -1,0 +1,15 @@
+/*
+selector {
+	attribute1: value1;
+	attribute2: value2;
+}
+*/
+
+h1{
+	color: #00bcd4;
+	font-size: 50px;
+}
+
+p{
+	color: #009688;
+}
