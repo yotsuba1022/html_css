@@ -13,6 +13,11 @@ h1{
 	border: 2px dotted #00bcd4;
 }
 
+/*body{
+	CSS reset: To replace the default behavior of other browsers (user agent stylesheet)
+	margin: 2px;
+}*/
+
 p{
 	font-family: Source-code-pro;
 	font-size: 18px;
