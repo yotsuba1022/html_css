@@ -1,34 +1,40 @@
-.box{
-	width: 300px;
-	height: 300px;
-	background: #000;
-	padding-right: 50px;
-	border: 10px solid red;
-	/*margin will not affect the width and height of the div, only padding and border can change the width and height.*/
-	margin-bottom: 30px;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.wrap{
-	width: 900px;
-	/*margin-left: auto;
+.box {
+    width: 300px;
+    height: 300px;
+    background: #000;
+    padding-right: 50px;
+    border: 10px solid red;
+    /*margin will not affect the width and height of the div, only padding and border can change the width and height.*/
+    margin-bottom: 30px;
+}
+
+.wrap {
+    width: 900px;
+    /*margin-left: auto;
 	margin-right: auto;*/
-	/*up, right, bottom, left*/
-	/*margin: 0 auto 0 auto;*/
-	/*up and bottom, rught and left*/
-	margin: 0 auto;
+    /*up, right, bottom, left*/
+    /*margin: 0 auto 0 auto;*/
+    /*up and bottom, rught and left*/
+    margin: 0 auto;
 }
 
-.header{
-	height: 100px;
-	background: #000;
+.header {
+    height: 100px;
+    background: #000;
 }
 
-.content{
-	height: 300px;
-	background: orange;
+.content {
+    height: 300px;
+    background: orange;
 }
 
-.footer{
-	height: 50px;
-	background: pink;
+.footer {
+    height: 50px;
+    background: pink;
 }
