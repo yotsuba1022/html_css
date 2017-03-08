@@ -7,3 +7,28 @@
 	/*margin will not affect the width and height of the div, only padding and border can change the width and height.*/
 	margin-bottom: 30px;
 }
+
+.wrap{
+	width: 900px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	/*up, right, bottom, left*/
+	/*margin: 0 auto 0 auto;*/
+	/*up and bottom, rught and left*/
+	margin: 0 auto;
+}
+
+.header{
+	height: 100px;
+	background: #000;
+}
+
+.content{
+	height: 300px;
+	background: orange;
+}
+
+.footer{
+	height: 50px;
+	background: pink;
+}
