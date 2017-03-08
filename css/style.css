@@ -10,6 +10,15 @@ h1{
 	font-size: 50px;
 }
 
+p{
+	font-family: Source-code-pro;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: left;
+	text-indent: 36px;
+	/*text-decoration: underline;*/
+}
+
 .style1{
 	color: #009688;
 }
