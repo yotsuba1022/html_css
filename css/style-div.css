@@ -14,3 +14,15 @@
 .style2 h2{
 	color: pink;
 }
+
+.style2{
+	color: pink;
+	border: 10px solid #000;
+	/*padding means push in*/
+	padding-left: 30px;
+	padding-right: 30px;	
+}
+.style2 p{
+	/*margin means push outside*/
+	margin-bottom: 20px;
+}
