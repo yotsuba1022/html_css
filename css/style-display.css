@@ -1,0 +1,9 @@
+a.a1{
+	display: block;
+	height: 30px;
+}
+
+li{
+	display: inline;
+	border: 2px solid black;
+}
