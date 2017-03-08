@@ -10,6 +10,10 @@ h1{
 	font-size: 50px;
 }
 
-p{
+.style1{
 	color: #009688;
+}
+
+.style2{
+	color: #673ab7;
 }
