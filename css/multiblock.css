@@ -1,0 +1,26 @@
+.wrap{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.left{
+	width: 200px;
+	height: 500px;
+	background: #009688;
+	float: left;
+}
+
+.center{
+	width: 600px;
+	height: 500px;
+	background: #2196f3;
+	float: left;
+}
+
+.right{
+	width: 200px;
+	height: 500px;
+	background: #8bc34a;
+	float: left;
+}
+
