@@ -4,9 +4,28 @@
 }
 
 .header{
-	height: 50px;
+	height: 150px;
 	background: #00bcd4;
 	margin-bottom: 20px;
+}
+
+.logo{
+	float: left;
+}
+
+.headermenu{
+	float: right;
+	margin-top: 50px;
+}
+
+.headermenu li{
+	float: left;
+	margin-right: 20px;
+}
+
+.headermenu a{
+	color: #3f51b5;
+	text-decoration: none;
 }
 
 .topmenu{
