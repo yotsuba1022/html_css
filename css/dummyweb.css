@@ -6,20 +6,26 @@
 .header{
 	height: 50px;
 	background: red;
+	margin-bottom: 20px;
+}
+
+.main{
+	margin-bottom: 20px;
 }
 
 .menu{
-	width: 200px;
-	background: black;
-	height: 50px;
+	width: 180px;
+	background: yellow;
 	float: left;
+	margin-right: 10px;
+	padding: 10px 10px 10px 10px;
 }
 
 .content{
-	width: 700px;
+	width: 790px;
 	background: pink;
 	height: 50px;
-	float: right;
+	float: left;
 }
 
 .clearfix{
