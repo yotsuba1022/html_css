@@ -1,0 +1,32 @@
+.wrap{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.header{
+	height: 50px;
+	background: red;
+}
+
+.menu{
+	width: 200px;
+	background: black;
+	height: 50px;
+	float: left;
+}
+
+.content{
+	width: 700px;
+	background: pink;
+	height: 50px;
+	float: right;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.footer{
+	height: 80px;
+	background: green;
+}
