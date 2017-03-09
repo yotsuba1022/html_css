@@ -1,0 +1,102 @@
+.wrap {
+    margin: 50px auto auto auto;
+    width: 1000px;
+}
+
+.header {
+    height: 110px;
+    background: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.logo {
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.headertext {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 150px;
+    float: left;
+}
+
+.headermenu {
+    float: right;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+.headermenu li {
+    float: left;
+}
+
+.headermenu li a {
+    text-align: center;
+    display: block;
+    width: 80px;
+    text-decoration: none;
+}
+
+.main {
+    margin-bottom: 20px;
+}
+
+
+/* Total width: 200 + (5*2) + 10 = 220 */
+
+.menu {
+    width: 200px;
+    background: #3f51b5;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+
+/* Total width: 600 + (5*2) +10 = 620 */
+
+.content {
+    width: 600px;
+    background: #009688;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+
+/* Total width: 1000 - 220 - 620 = 160 (max)*/
+
+.aside {
+    width: 150px;
+    background: #9c27b0;
+    float: left;
+    padding: 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.footer {
+    height: 80px;
+    background: #ffc107;
+}
+
+.footercontact {
+    float: left;
+    margin-top: 35px;
+}
+
+.footer li {
+    float: left;
+    margin-right: 20px;
+}
+
+.footer li a {
+    display: block;
+    width: 300px;
+    text-align: center;
+}
