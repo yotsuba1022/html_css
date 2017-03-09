@@ -1,0 +1,36 @@
+.container{
+	width: 500px;
+	height: 300px;
+	border: 2px solid black;
+	position: relative;
+}
+
+.box1{
+	width: 100px;
+	height: 100px;
+	background: #ff9800;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+.box2{
+	width: 100px;
+	height: 100px;
+	background: #4caf50;
+	position: absolute;
+	right: 70px;
+	bottom: 10px;
+	z-index: 9;
+}
+
+.box3{
+	width: 100px;
+	height: 100px;
+	background: #00bcd4;
+	position: absolute;
+	right: 50px;
+	bottom: 70px;
+	z-index: 11;
+}
