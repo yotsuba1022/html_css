@@ -5,8 +5,35 @@
 
 .header{
 	height: 50px;
-	background: red;
+	background: #00bcd4;
 	margin-bottom: 20px;
+}
+
+.topmenu{
+	height: 50px;
+}
+
+/*Let the li elements align horizontally*/
+.topmenu li{
+	float: left;
+}
+
+.topmenu li a{
+	/*Let the anchor elements to occupy the horizontal space*/
+	display: block;
+	width: 200px;
+	/*height: 50px;*/
+	background: #00bcd4;
+	color: #3f51b5;
+	text-align: center;
+	text-decoration: none;
+	/*line-height: 50px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.topmenu li a:hover{
+	background: #00d46f;
 }
 
 .main{
