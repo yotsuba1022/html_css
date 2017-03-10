@@ -1,5 +1,17 @@
 .box {
-	width: 282px;
-	height: 288px;
-	background-image: url(../img/wakeup.jpg);
+	width: 800px;
+	height: 1000px;
+	/*This png file is a very lightway file, 
+	which can repeat on x-axis to generate a whole background, 
+	in this way, the loading of the web site will be reduced.*/
+	background-image: url(../img/slicebg.png);
+	/*By default, it's repeat-x*/
+	/*background-repeat: repeat-x;*/
+}
+
+.box h2{
+	color: black;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 20px;
 }
