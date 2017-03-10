@@ -1,15 +1,6 @@
 .box {
 	width: 800px;
-	
-	/*This png file is a very lightway file, 
-	which can repeat on x-axis to generate a whole background, 
-	in this way, the loading of the web site will be reduced.*/
-	background-image: url(../img/slicebg.png);
-	/*By default, it's repeat-x*/
-	background-repeat: repeat-x;
-	/*If the content was too long, 
-	we need to extend the bg color by the bottom color of the slicebg.png*/
-	background-color: #d4e6c9;
+	background: url(../img/slicebg.png) repeat-x #d4e6c9;
 }
 
 .box h2{
