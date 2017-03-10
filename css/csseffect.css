@@ -63,3 +63,21 @@
 	text-align: center;
 	font-size: 30px;
 }
+
+.bg{
+	width: 400px;
+	height: 400px;
+	background: linear-gradient(#e91e63, #009688);
+}
+
+.hbg{
+	width: 1000px;
+	height: 300px;
+	/*The following line will not work.*/
+	/*background: linear-gradient(left, #e91e63, #009688);*/
+	/*Please refer to this page: 
+	  https://www.w3schools.com/css/css3_gradients.asp
+	 */
+	background: -webkit-linear-gradient(left, #3f51b5, #a7f3d2);
+	
+}
