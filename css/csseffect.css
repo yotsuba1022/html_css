@@ -81,3 +81,10 @@
 	background: -webkit-linear-gradient(left, #3f51b5, #a7f3d2);
 	
 }
+
+.shadow{
+	width: 300px;
+	height: 300px;
+	background: #a4e25b;
+	box-shadow: 5px 5px 10px #c1c1c1;
+}
