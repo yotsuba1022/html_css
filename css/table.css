@@ -1,0 +1,15 @@
+.tb th, .tb td{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.tb th{
+	padding: 10px;
+	background: green;
+	color: black;
+}
+
+.tb td{
+	padding: 10px;
+
+}
