@@ -1,9 +1,24 @@
+.header h1{
+	float: left;
+}
+
+.header h1 a{
+	background-image: url(../img/logo.png);
+	width: 174px;
+	height: 36px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
 .box {
 	width: 800px;
 	background: url(../img/slicebg.png) repeat-x #d4e6c9;
 }
 
 .box h2{
+	margin-right: 100px;
 	color: black;
 	font-size: 36px;
 	text-align: center;
