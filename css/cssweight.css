@@ -1,0 +1,31 @@
+p{
+	color: red;
+}
+
+.box{
+	color: blue;
+}
+
+.box2{
+	color: yellow;
+}
+
+.header p{
+	color: gray;
+}
+
+.header .menu li {
+	color: pink;
+}
+
+#footer{
+	font-size: 30px;
+}
+
+#imp{
+	color: orange;
+}
+
+.morethanid{
+	color: green !important; 
+}
